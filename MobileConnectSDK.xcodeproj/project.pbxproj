@@ -83,7 +83,6 @@
 		3C27CBE31CF70B9800F4A66F /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		3C27CBE41CF70D9E00F4A66F /* MobileConnectSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileConnectSDK.h; sourceTree = "<group>"; };
 		3C27CBE71CF70F1E00F4A66F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3C27CBE91CF70F4B00F4A66F /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		3C9C5BC71CF7123200392AED /* MobileConnectSDK iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MobileConnectSDK iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9C5BC91CF7123300392AED /* MobileConnectSDK_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileConnectSDK_iOSTests.m; sourceTree = "<group>"; };
 		3C9C5BCB1CF7123300392AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -215,7 +214,6 @@
 			children = (
 				3CD907311CF8542B0050F25D /* MobileConnectSDK.podspec */,
 				3C27CBE71CF70F1E00F4A66F /* README.md */,
-				3C27CBE91CF70F4B00F4A66F /* License */,
 			);
 			path = Metadata;
 			sourceTree = "<group>";
