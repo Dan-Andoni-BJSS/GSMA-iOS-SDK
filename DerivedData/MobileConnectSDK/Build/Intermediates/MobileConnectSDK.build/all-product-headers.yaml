@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Fawkes/Desktop/MobileConnectSDK/DerivedData/MobileConnectSDK/Build/Products/Debug-iphoneos/MobileConnectSDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MobileConnectSDK-Swift.h",
+          'external-contents': "/Users/Fawkes/Desktop/MobileConnectSDK/DerivedData/MobileConnectSDK/Build/Products/Debug-iphoneos/MobileConnectSDK.framework/Headers/MobileConnectSDK-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MobileConnectSDK.h",
+          'external-contents': "/Users/Fawkes/Desktop/MobileConnectSDK/Sources/MobileConnectSDK.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Fawkes/Desktop/MobileConnectSDK/DerivedData/MobileConnectSDK/Build/Products/Debug-iphoneos/MobileConnectSDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Fawkes/Desktop/MobileConnectSDK/DerivedData/MobileConnectSDK/Build/Intermediates/MobileConnectSDK.build/Debug-iphoneos/MobileConnectSDK iOS.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

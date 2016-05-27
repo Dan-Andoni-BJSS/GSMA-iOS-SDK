@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AFNetworking-iOS8.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AFNetworking-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSONModel-iOS8.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSONModel-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MobileConnectSDK iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MobileConnectSDK iOSTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>35E5FF55607D7CD1D491964D279C2486</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>717BE647C68042654086028CA9BF1D61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1BCF26873FA5F22235BA89849ECB987</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A6CD56689D12DAC2FCDB3E1F646D77E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEEE2425A5DE1591F2679C8E6B2A3B6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E4FFC614655DB3D435142E50E3B1272F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

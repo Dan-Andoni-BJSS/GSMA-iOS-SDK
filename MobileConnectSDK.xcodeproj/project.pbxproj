@@ -6,20 +6,426 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		27F335B9885943EBCFCA91B9 /* libPods-MobileConnectSDK iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E500B2DBEB773344E1D479 /* libPods-MobileConnectSDK iOS.a */; };
+		3C27CBE51CF70D9E00F4A66F /* MobileConnectSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C27CBE41CF70D9E00F4A66F /* MobileConnectSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C9C5BCA1CF7123300392AED /* MobileConnectSDK_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BC91CF7123300392AED /* MobileConnectSDK_iOSTests.m */; };
+		3C9C5BCC1CF7123300392AED /* MobileConnectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C27CBD71CF70AF900F4A66F /* MobileConnectSDK.framework */; };
+		3C9C5C081CF715F200392AED /* DSDiscoveryService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BD31CF715F200392AED /* DSDiscoveryService.h */; };
+		3C9C5C091CF715F200392AED /* DSDiscoveryService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BD41CF715F200392AED /* DSDiscoveryService.m */; };
+		3C9C5C0A1CF715F200392AED /* MCMobileConnectService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BD61CF715F200392AED /* MCMobileConnectService.h */; };
+		3C9C5C0B1CF715F200392AED /* MCMobileConnectService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BD71CF715F200392AED /* MCMobileConnectService.m */; };
+		3C9C5C0C1CF715F200392AED /* DSDiscoveryRequestConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BD91CF715F200392AED /* DSDiscoveryRequestConstructor.h */; };
+		3C9C5C0D1CF715F200392AED /* DSDiscoveryRequestConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BDA1CF715F200392AED /* DSDiscoveryRequestConstructor.m */; };
+		3C9C5C0E1CF715F200392AED /* KeyValueHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BDB1CF715F200392AED /* KeyValueHelper.h */; };
+		3C9C5C0F1CF715F200392AED /* KeyValueHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BDC1CF715F200392AED /* KeyValueHelper.m */; };
+		3C9C5C101CF715F200392AED /* MCBaseRequestConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BDD1CF715F200392AED /* MCBaseRequestConstructor.h */; };
+		3C9C5C111CF715F200392AED /* MCBaseRequestConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BDE1CF715F200392AED /* MCBaseRequestConstructor.m */; };
+		3C9C5C121CF715F200392AED /* MCButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BDF1CF715F200392AED /* MCButton.h */; };
+		3C9C5C131CF715F200392AED /* MCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BE01CF715F200392AED /* MCButton.m */; };
+		3C9C5C141CF715F200392AED /* MCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BE11CF715F200392AED /* MCConstants.h */; };
+		3C9C5C151CF715F200392AED /* MCJWTDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BE21CF715F200392AED /* MCJWTDecoder.h */; };
+		3C9C5C161CF715F200392AED /* MCJWTDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BE31CF715F200392AED /* MCJWTDecoder.m */; };
+		3C9C5C171CF715F200392AED /* MCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BE41CF715F200392AED /* MCManager.h */; };
+		3C9C5C181CF715F200392AED /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BE51CF715F200392AED /* MCManager.m */; };
+		3C9C5C191CF715F200392AED /* MCRequestConstructor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BE61CF715F200392AED /* MCRequestConstructor.h */; };
+		3C9C5C1A1CF715F200392AED /* MCRequestConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BE71CF715F200392AED /* MCRequestConstructor.m */; };
+		3C9C5C1B1CF715F200392AED /* MCServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BE81CF715F200392AED /* MCServices.h */; };
+		3C9C5C1C1CF715F200392AED /* MCServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BE91CF715F200392AED /* MCServices.m */; };
+		3C9C5C1D1CF715F200392AED /* MCServices_InternalAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BEA1CF715F200392AED /* MCServices_InternalAPI.h */; };
+		3C9C5C1E1CF715F200392AED /* MobileConnectSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BEB1CF715F200392AED /* MobileConnectSDK.h */; };
+		3C9C5C1F1CF715F200392AED /* MobileConnectSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BEC1CF715F200392AED /* MobileConnectSDK.m */; };
+		3C9C5C201CF715F200392AED /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BED1CF715F200392AED /* Reachability.h */; };
+		3C9C5C211CF715F200392AED /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BEE1CF715F200392AED /* Reachability.m */; };
+		3C9C5C221CF715F200392AED /* MCWebController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BF01CF715F200392AED /* MCWebController.h */; };
+		3C9C5C231CF715F200392AED /* MCWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BF11CF715F200392AED /* MCWebController.m */; };
+		3C9C5C241CF715F200392AED /* MCWebController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9C5BF21CF715F200392AED /* MCWebController.storyboard */; };
+		3C9C5C251CF715F200392AED /* APISModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BF41CF715F200392AED /* APISModel.h */; };
+		3C9C5C261CF715F200392AED /* APISModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BF51CF715F200392AED /* APISModel.m */; };
+		3C9C5C271CF715F200392AED /* AuthorizationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BF61CF715F200392AED /* AuthorizationModel.h */; };
+		3C9C5C281CF715F200392AED /* AuthorizationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BF71CF715F200392AED /* AuthorizationModel.m */; };
+		3C9C5C291CF715F200392AED /* DiscoveryResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BF81CF715F200392AED /* DiscoveryResponse.h */; };
+		3C9C5C2A1CF715F200392AED /* DiscoveryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BF91CF715F200392AED /* DiscoveryResponse.m */; };
+		3C9C5C2B1CF715F200392AED /* LinkModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BFA1CF715F200392AED /* LinkModel.h */; };
+		3C9C5C2C1CF715F200392AED /* LinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BFB1CF715F200392AED /* LinkModel.m */; };
+		3C9C5C2D1CF715F200392AED /* MCModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BFC1CF715F200392AED /* MCModel.h */; };
+		3C9C5C2E1CF715F200392AED /* MCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BFD1CF715F200392AED /* MCModel.m */; };
+		3C9C5C2F1CF715F200392AED /* OperatorDataRedirectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5BFE1CF715F200392AED /* OperatorDataRedirectModel.h */; };
+		3C9C5C301CF715F200392AED /* OperatorDataRedirectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5BFF1CF715F200392AED /* OperatorDataRedirectModel.m */; };
+		3C9C5C311CF715F200392AED /* OperatorDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5C001CF715F200392AED /* OperatorDataResponse.h */; };
+		3C9C5C321CF715F200392AED /* OperatorDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5C011CF715F200392AED /* OperatorDataResponse.m */; };
+		3C9C5C331CF715F200392AED /* OperatorIdModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5C021CF715F200392AED /* OperatorIdModel.h */; };
+		3C9C5C341CF715F200392AED /* OperatorIdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5C031CF715F200392AED /* OperatorIdModel.m */; };
+		3C9C5C351CF715F200392AED /* TokenModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5C041CF715F200392AED /* TokenModel.h */; };
+		3C9C5C361CF715F200392AED /* TokenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5C051CF715F200392AED /* TokenModel.m */; };
+		3C9C5C371CF715F200392AED /* TokenResponseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9C5C061CF715F200392AED /* TokenResponseModel.h */; };
+		3C9C5C381CF715F200392AED /* TokenResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9C5C071CF715F200392AED /* TokenResponseModel.m */; };
+		3C9C5C631CF7481200392AED /* mobileConnectButtonImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C9C5C621CF7481200392AED /* mobileConnectButtonImage.png */; };
+		3CD907321CF8542B0050F25D /* MobileConnectSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3CD907311CF8542B0050F25D /* MobileConnectSDK.podspec */; };
+		7C377E7305095A3B3D38DA33 /* libPods-MobileConnectSDK iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5944FAC2FCD1A8FEC59FBAEE /* libPods-MobileConnectSDK iOSTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C9C5BCD1CF7123300392AED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C27CBCC1CF70AC600F4A66F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C27CBD61CF70AF900F4A66F;
+			remoteInfo = "MobileConnectSDK iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD519ECF89314B2EBFB1C4D /* Pods-MobileConnectSDK iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileConnectSDK iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileConnectSDK iOS/Pods-MobileConnectSDK iOS.release.xcconfig"; sourceTree = "<group>"; };
+		11E500B2DBEB773344E1D479 /* libPods-MobileConnectSDK iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileConnectSDK iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E11425A220DC742E49F1BDD /* Pods-MobileConnectSDK iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileConnectSDK iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileConnectSDK iOSTests/Pods-MobileConnectSDK iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C27CBD71CF70AF900F4A66F /* MobileConnectSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobileConnectSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C27CBE31CF70B9800F4A66F /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		3C27CBE41CF70D9E00F4A66F /* MobileConnectSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileConnectSDK.h; sourceTree = "<group>"; };
+		3C27CBE71CF70F1E00F4A66F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C27CBE91CF70F4B00F4A66F /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		3C9C5BC71CF7123200392AED /* MobileConnectSDK iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MobileConnectSDK iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9C5BC91CF7123300392AED /* MobileConnectSDK_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileConnectSDK_iOSTests.m; sourceTree = "<group>"; };
+		3C9C5BCB1CF7123300392AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9C5BD31CF715F200392AED /* DSDiscoveryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDiscoveryService.h; sourceTree = "<group>"; };
+		3C9C5BD41CF715F200392AED /* DSDiscoveryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDiscoveryService.m; sourceTree = "<group>"; };
+		3C9C5BD61CF715F200392AED /* MCMobileConnectService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCMobileConnectService.h; sourceTree = "<group>"; };
+		3C9C5BD71CF715F200392AED /* MCMobileConnectService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCMobileConnectService.m; sourceTree = "<group>"; };
+		3C9C5BD91CF715F200392AED /* DSDiscoveryRequestConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDiscoveryRequestConstructor.h; sourceTree = "<group>"; };
+		3C9C5BDA1CF715F200392AED /* DSDiscoveryRequestConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDiscoveryRequestConstructor.m; sourceTree = "<group>"; };
+		3C9C5BDB1CF715F200392AED /* KeyValueHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueHelper.h; sourceTree = "<group>"; };
+		3C9C5BDC1CF715F200392AED /* KeyValueHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueHelper.m; sourceTree = "<group>"; };
+		3C9C5BDD1CF715F200392AED /* MCBaseRequestConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBaseRequestConstructor.h; sourceTree = "<group>"; };
+		3C9C5BDE1CF715F200392AED /* MCBaseRequestConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCBaseRequestConstructor.m; sourceTree = "<group>"; };
+		3C9C5BDF1CF715F200392AED /* MCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCButton.h; sourceTree = "<group>"; };
+		3C9C5BE01CF715F200392AED /* MCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCButton.m; sourceTree = "<group>"; };
+		3C9C5BE11CF715F200392AED /* MCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCConstants.h; sourceTree = "<group>"; };
+		3C9C5BE21CF715F200392AED /* MCJWTDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCJWTDecoder.h; sourceTree = "<group>"; };
+		3C9C5BE31CF715F200392AED /* MCJWTDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCJWTDecoder.m; sourceTree = "<group>"; };
+		3C9C5BE41CF715F200392AED /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		3C9C5BE51CF715F200392AED /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
+		3C9C5BE61CF715F200392AED /* MCRequestConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRequestConstructor.h; sourceTree = "<group>"; };
+		3C9C5BE71CF715F200392AED /* MCRequestConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCRequestConstructor.m; sourceTree = "<group>"; };
+		3C9C5BE81CF715F200392AED /* MCServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCServices.h; sourceTree = "<group>"; };
+		3C9C5BE91CF715F200392AED /* MCServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCServices.m; sourceTree = "<group>"; };
+		3C9C5BEA1CF715F200392AED /* MCServices_InternalAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCServices_InternalAPI.h; sourceTree = "<group>"; };
+		3C9C5BEB1CF715F200392AED /* MobileConnectSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileConnectSDK.h; sourceTree = "<group>"; };
+		3C9C5BEC1CF715F200392AED /* MobileConnectSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileConnectSDK.m; sourceTree = "<group>"; };
+		3C9C5BED1CF715F200392AED /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3C9C5BEE1CF715F200392AED /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3C9C5BF01CF715F200392AED /* MCWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCWebController.h; sourceTree = "<group>"; };
+		3C9C5BF11CF715F200392AED /* MCWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCWebController.m; sourceTree = "<group>"; };
+		3C9C5BF21CF715F200392AED /* MCWebController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MCWebController.storyboard; sourceTree = "<group>"; };
+		3C9C5BF41CF715F200392AED /* APISModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APISModel.h; sourceTree = "<group>"; };
+		3C9C5BF51CF715F200392AED /* APISModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APISModel.m; sourceTree = "<group>"; };
+		3C9C5BF61CF715F200392AED /* AuthorizationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationModel.h; sourceTree = "<group>"; };
+		3C9C5BF71CF715F200392AED /* AuthorizationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationModel.m; sourceTree = "<group>"; };
+		3C9C5BF81CF715F200392AED /* DiscoveryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryResponse.h; sourceTree = "<group>"; };
+		3C9C5BF91CF715F200392AED /* DiscoveryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryResponse.m; sourceTree = "<group>"; };
+		3C9C5BFA1CF715F200392AED /* LinkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkModel.h; sourceTree = "<group>"; };
+		3C9C5BFB1CF715F200392AED /* LinkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkModel.m; sourceTree = "<group>"; };
+		3C9C5BFC1CF715F200392AED /* MCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCModel.h; sourceTree = "<group>"; };
+		3C9C5BFD1CF715F200392AED /* MCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCModel.m; sourceTree = "<group>"; };
+		3C9C5BFE1CF715F200392AED /* OperatorDataRedirectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperatorDataRedirectModel.h; sourceTree = "<group>"; };
+		3C9C5BFF1CF715F200392AED /* OperatorDataRedirectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperatorDataRedirectModel.m; sourceTree = "<group>"; };
+		3C9C5C001CF715F200392AED /* OperatorDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperatorDataResponse.h; sourceTree = "<group>"; };
+		3C9C5C011CF715F200392AED /* OperatorDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperatorDataResponse.m; sourceTree = "<group>"; };
+		3C9C5C021CF715F200392AED /* OperatorIdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperatorIdModel.h; sourceTree = "<group>"; };
+		3C9C5C031CF715F200392AED /* OperatorIdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperatorIdModel.m; sourceTree = "<group>"; };
+		3C9C5C041CF715F200392AED /* TokenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenModel.h; sourceTree = "<group>"; };
+		3C9C5C051CF715F200392AED /* TokenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenModel.m; sourceTree = "<group>"; };
+		3C9C5C061CF715F200392AED /* TokenResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenResponseModel.h; sourceTree = "<group>"; };
+		3C9C5C071CF715F200392AED /* TokenResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenResponseModel.m; sourceTree = "<group>"; };
+		3C9C5C621CF7481200392AED /* mobileConnectButtonImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobileConnectButtonImage.png; sourceTree = "<group>"; };
+		3CD907311CF8542B0050F25D /* MobileConnectSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MobileConnectSDK.podspec; sourceTree = SOURCE_ROOT; };
+		5944FAC2FCD1A8FEC59FBAEE /* libPods-MobileConnectSDK iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileConnectSDK iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74569290B8F3D25B0F34AB30 /* Pods-MobileConnectSDK iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileConnectSDK iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileConnectSDK iOSTests/Pods-MobileConnectSDK iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5539A816B82703322E4C3C3 /* Pods-MobileConnectSDK iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileConnectSDK iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileConnectSDK iOS/Pods-MobileConnectSDK iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C27CBD31CF70AF900F4A66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F335B9885943EBCFCA91B9 /* libPods-MobileConnectSDK iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9C5BC41CF7123200392AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9C5BCC1CF7123300392AED /* MobileConnectSDK.framework in Frameworks */,
+				7C377E7305095A3B3D38DA33 /* libPods-MobileConnectSDK iOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		19FE4A93E70041E4AA3617A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5539A816B82703322E4C3C3 /* Pods-MobileConnectSDK iOS.debug.xcconfig */,
+				0CD519ECF89314B2EBFB1C4D /* Pods-MobileConnectSDK iOS.release.xcconfig */,
+				1E11425A220DC742E49F1BDD /* Pods-MobileConnectSDK iOSTests.debug.xcconfig */,
+				74569290B8F3D25B0F34AB30 /* Pods-MobileConnectSDK iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3C27CBCB1CF70AC600F4A66F = {
 			isa = PBXGroup;
 			children = (
+				3C9C5C611CF747F900392AED /* Resources */,
+				3C27CBE61CF70ED000F4A66F /* Metadata */,
+				3C27CBE01CF70AFE00F4A66F /* Sources */,
+				3C9C5BC81CF7123300392AED /* MobileConnectSDK iOSTests */,
+				3C27CBD81CF70AF900F4A66F /* Products */,
+				19FE4A93E70041E4AA3617A0 /* Pods */,
+				C013E18875015A78DB3D4AE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
+		3C27CBD81CF70AF900F4A66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C27CBD71CF70AF900F4A66F /* MobileConnectSDK.framework */,
+				3C9C5BC71CF7123200392AED /* MobileConnectSDK iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C27CBE01CF70AFE00F4A66F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C5BD21CF715F200392AED /* Discovery */,
+				3C9C5BD51CF715F200392AED /* MobileConnect */,
+				3C9C5BD81CF715F200392AED /* MobileConnectUtilities */,
+				3C9C5BF31CF715F200392AED /* Models */,
+				3C27CBE41CF70D9E00F4A66F /* MobileConnectSDK.h */,
+				3C27CBE31CF70B9800F4A66F /* Info-iOS.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3C27CBE61CF70ED000F4A66F /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				3CD907311CF8542B0050F25D /* MobileConnectSDK.podspec */,
+				3C27CBE71CF70F1E00F4A66F /* README.md */,
+				3C27CBE91CF70F4B00F4A66F /* License */,
+			);
+			path = Metadata;
+			sourceTree = "<group>";
+		};
+		3C9C5BC81CF7123300392AED /* MobileConnectSDK iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C5BC91CF7123300392AED /* MobileConnectSDK_iOSTests.m */,
+				3C9C5BCB1CF7123300392AED /* Info.plist */,
+			);
+			path = "MobileConnectSDK iOSTests";
+			sourceTree = "<group>";
+		};
+		3C9C5BD21CF715F200392AED /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C5BD31CF715F200392AED /* DSDiscoveryService.h */,
+				3C9C5BD41CF715F200392AED /* DSDiscoveryService.m */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		3C9C5BD51CF715F200392AED /* MobileConnect */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C5BD61CF715F200392AED /* MCMobileConnectService.h */,
+				3C9C5BD71CF715F200392AED /* MCMobileConnectService.m */,
+			);
+			path = MobileConnect;
+			sourceTree = "<group>";
+		};
+		3C9C5BD81CF715F200392AED /* MobileConnectUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C5BD91CF715F200392AED /* DSDiscoveryRequestConstructor.h */,
+				3C9C5BDA1CF715F200392AED /* DSDiscoveryRequestConstructor.m */,
+				3C9C5BDB1CF715F200392AED /* KeyValueHelper.h */,
+				3C9C5BDC1CF715F200392AED /* KeyValueHelper.m */,
+				3C9C5BDD1CF715F200392AED /* MCBaseRequestConstructor.h */,
+				3C9C5BDE1CF715F200392AED /* MCBaseRequestConstructor.m */,
+				3C9C5BDF1CF715F200392AED /* MCButton.h */,
+				3C9C5BE01CF715F200392AED /* MCButton.m */,
+				3C9C5BE11CF715F200392AED /* MCConstants.h */,
+				3C9C5BE21CF715F200392AED /* MCJWTDecoder.h */,
+				3C9C5BE31CF715F200392AED /* MCJWTDecoder.m */,
+				3C9C5BE41CF715F200392AED /* MCManager.h */,
+				3C9C5BE51CF715F200392AED /* MCManager.m */,
+				3C9C5BE61CF715F200392AED /* MCRequestConstructor.h */,
+				3C9C5BE71CF715F200392AED /* MCRequestConstructor.m */,
+				3C9C5BE81CF715F200392AED /* MCServices.h */,
+				3C9C5BE91CF715F200392AED /* MCServices.m */,
+				3C9C5BEA1CF715F200392AED /* MCServices_InternalAPI.h */,
+				3C9C5BEB1CF715F200392AED /* MobileConnectSDK.h */,
+				3C9C5BEC1CF715F200392AED /* MobileConnectSDK.m */,
+				3C9C5BED1CF715F200392AED /* Reachability.h */,
+				3C9C5BEE1CF715F200392AED /* Reachability.m */,
+				3C9C5BEF1CF715F200392AED /* WebController */,
+			);
+			path = MobileConnectUtilities;
+			sourceTree = "<group>";
+		};
+		3C9C5BEF1CF715F200392AED /* WebController */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C5BF01CF715F200392AED /* MCWebController.h */,
+				3C9C5BF11CF715F200392AED /* MCWebController.m */,
+				3C9C5BF21CF715F200392AED /* MCWebController.storyboard */,
+			);
+			path = WebController;
+			sourceTree = "<group>";
+		};
+		3C9C5BF31CF715F200392AED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C5BF41CF715F200392AED /* APISModel.h */,
+				3C9C5BF51CF715F200392AED /* APISModel.m */,
+				3C9C5BF61CF715F200392AED /* AuthorizationModel.h */,
+				3C9C5BF71CF715F200392AED /* AuthorizationModel.m */,
+				3C9C5BF81CF715F200392AED /* DiscoveryResponse.h */,
+				3C9C5BF91CF715F200392AED /* DiscoveryResponse.m */,
+				3C9C5BFA1CF715F200392AED /* LinkModel.h */,
+				3C9C5BFB1CF715F200392AED /* LinkModel.m */,
+				3C9C5BFC1CF715F200392AED /* MCModel.h */,
+				3C9C5BFD1CF715F200392AED /* MCModel.m */,
+				3C9C5BFE1CF715F200392AED /* OperatorDataRedirectModel.h */,
+				3C9C5BFF1CF715F200392AED /* OperatorDataRedirectModel.m */,
+				3C9C5C001CF715F200392AED /* OperatorDataResponse.h */,
+				3C9C5C011CF715F200392AED /* OperatorDataResponse.m */,
+				3C9C5C021CF715F200392AED /* OperatorIdModel.h */,
+				3C9C5C031CF715F200392AED /* OperatorIdModel.m */,
+				3C9C5C041CF715F200392AED /* TokenModel.h */,
+				3C9C5C051CF715F200392AED /* TokenModel.m */,
+				3C9C5C061CF715F200392AED /* TokenResponseModel.h */,
+				3C9C5C071CF715F200392AED /* TokenResponseModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C9C5C611CF747F900392AED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C5C621CF7481200392AED /* mobileConnectButtonImage.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C013E18875015A78DB3D4AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11E500B2DBEB773344E1D479 /* libPods-MobileConnectSDK iOS.a */,
+				5944FAC2FCD1A8FEC59FBAEE /* libPods-MobileConnectSDK iOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C27CBD41CF70AF900F4A66F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9C5C2B1CF715F200392AED /* LinkModel.h in Headers */,
+				3C9C5C171CF715F200392AED /* MCManager.h in Headers */,
+				3C9C5C251CF715F200392AED /* APISModel.h in Headers */,
+				3C9C5C371CF715F200392AED /* TokenResponseModel.h in Headers */,
+				3C9C5C311CF715F200392AED /* OperatorDataResponse.h in Headers */,
+				3C9C5C151CF715F200392AED /* MCJWTDecoder.h in Headers */,
+				3C9C5C1B1CF715F200392AED /* MCServices.h in Headers */,
+				3C9C5C141CF715F200392AED /* MCConstants.h in Headers */,
+				3C9C5C101CF715F200392AED /* MCBaseRequestConstructor.h in Headers */,
+				3C9C5C191CF715F200392AED /* MCRequestConstructor.h in Headers */,
+				3C9C5C2F1CF715F200392AED /* OperatorDataRedirectModel.h in Headers */,
+				3C9C5C1D1CF715F200392AED /* MCServices_InternalAPI.h in Headers */,
+				3C9C5C081CF715F200392AED /* DSDiscoveryService.h in Headers */,
+				3C9C5C121CF715F200392AED /* MCButton.h in Headers */,
+				3C9C5C221CF715F200392AED /* MCWebController.h in Headers */,
+				3C9C5C201CF715F200392AED /* Reachability.h in Headers */,
+				3C9C5C271CF715F200392AED /* AuthorizationModel.h in Headers */,
+				3C9C5C351CF715F200392AED /* TokenModel.h in Headers */,
+				3C9C5C0A1CF715F200392AED /* MCMobileConnectService.h in Headers */,
+				3C9C5C331CF715F200392AED /* OperatorIdModel.h in Headers */,
+				3C9C5C1E1CF715F200392AED /* MobileConnectSDK.h in Headers */,
+				3C27CBE51CF70D9E00F4A66F /* MobileConnectSDK.h in Headers */,
+				3C9C5C2D1CF715F200392AED /* MCModel.h in Headers */,
+				3C9C5C0E1CF715F200392AED /* KeyValueHelper.h in Headers */,
+				3C9C5C291CF715F200392AED /* DiscoveryResponse.h in Headers */,
+				3C9C5C0C1CF715F200392AED /* DSDiscoveryRequestConstructor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C27CBD61CF70AF900F4A66F /* MobileConnectSDK iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C27CBDD1CF70AF900F4A66F /* Build configuration list for PBXNativeTarget "MobileConnectSDK iOS" */;
+			buildPhases = (
+				5356EE2C8DE48853755478A5 /* 📦 Check Pods Manifest.lock */,
+				3C27CBD21CF70AF900F4A66F /* Sources */,
+				3C27CBD31CF70AF900F4A66F /* Frameworks */,
+				3C27CBD41CF70AF900F4A66F /* Headers */,
+				3C27CBD51CF70AF900F4A66F /* Resources */,
+				F5189F4C15BF3ADD583AC6DC /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobileConnectSDK iOS";
+			productName = "MobileConnectSDK iOS";
+			productReference = 3C27CBD71CF70AF900F4A66F /* MobileConnectSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C9C5BC61CF7123200392AED /* MobileConnectSDK iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9C5BD11CF7123300392AED /* Build configuration list for PBXNativeTarget "MobileConnectSDK iOSTests" */;
+			buildPhases = (
+				5D8C26F0D84277036CD36D51 /* 📦 Check Pods Manifest.lock */,
+				3C9C5BC31CF7123200392AED /* Sources */,
+				3C9C5BC41CF7123200392AED /* Frameworks */,
+				3C9C5BC51CF7123200392AED /* Resources */,
+				644943E71F6D567EE6DBA298 /* 📦 Embed Pods Frameworks */,
+				85AB0485A85D7958AC4B28C4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9C5BCE1CF7123300392AED /* PBXTargetDependency */,
+			);
+			name = "MobileConnectSDK iOSTests";
+			productName = "MobileConnectSDK iOSTests";
+			productReference = 3C9C5BC71CF7123200392AED /* MobileConnectSDK iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3C27CBCC1CF70AC600F4A66F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					3C27CBD61CF70AF900F4A66F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3C9C5BC61CF7123200392AED = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
 			};
 			buildConfigurationList = 3C27CBCF1CF70AC600F4A66F /* Build configuration list for PBXProject "MobileConnectSDK" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -29,23 +435,381 @@
 				en,
 			);
 			mainGroup = 3C27CBCB1CF70AC600F4A66F;
+			productRefGroup = 3C27CBD81CF70AF900F4A66F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				3C27CBD61CF70AF900F4A66F /* MobileConnectSDK iOS */,
+				3C9C5BC61CF7123200392AED /* MobileConnectSDK iOSTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C27CBD51CF70AF900F4A66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9C5C631CF7481200392AED /* mobileConnectButtonImage.png in Resources */,
+				3CD907321CF8542B0050F25D /* MobileConnectSDK.podspec in Resources */,
+				3C9C5C241CF715F200392AED /* MCWebController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9C5BC51CF7123200392AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5356EE2C8DE48853755478A5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D8C26F0D84277036CD36D51 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		644943E71F6D567EE6DBA298 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileConnectSDK iOSTests/Pods-MobileConnectSDK iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85AB0485A85D7958AC4B28C4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileConnectSDK iOSTests/Pods-MobileConnectSDK iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5189F4C15BF3ADD583AC6DC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileConnectSDK iOS/Pods-MobileConnectSDK iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C27CBD21CF70AF900F4A66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9C5C0B1CF715F200392AED /* MCMobileConnectService.m in Sources */,
+				3C9C5C361CF715F200392AED /* TokenModel.m in Sources */,
+				3C9C5C181CF715F200392AED /* MCManager.m in Sources */,
+				3C9C5C231CF715F200392AED /* MCWebController.m in Sources */,
+				3C9C5C301CF715F200392AED /* OperatorDataRedirectModel.m in Sources */,
+				3C9C5C1F1CF715F200392AED /* MobileConnectSDK.m in Sources */,
+				3C9C5C261CF715F200392AED /* APISModel.m in Sources */,
+				3C9C5C321CF715F200392AED /* OperatorDataResponse.m in Sources */,
+				3C9C5C2E1CF715F200392AED /* MCModel.m in Sources */,
+				3C9C5C2A1CF715F200392AED /* DiscoveryResponse.m in Sources */,
+				3C9C5C111CF715F200392AED /* MCBaseRequestConstructor.m in Sources */,
+				3C9C5C381CF715F200392AED /* TokenResponseModel.m in Sources */,
+				3C9C5C1C1CF715F200392AED /* MCServices.m in Sources */,
+				3C9C5C281CF715F200392AED /* AuthorizationModel.m in Sources */,
+				3C9C5C2C1CF715F200392AED /* LinkModel.m in Sources */,
+				3C9C5C1A1CF715F200392AED /* MCRequestConstructor.m in Sources */,
+				3C9C5C161CF715F200392AED /* MCJWTDecoder.m in Sources */,
+				3C9C5C0F1CF715F200392AED /* KeyValueHelper.m in Sources */,
+				3C9C5C091CF715F200392AED /* DSDiscoveryService.m in Sources */,
+				3C9C5C341CF715F200392AED /* OperatorIdModel.m in Sources */,
+				3C9C5C0D1CF715F200392AED /* DSDiscoveryRequestConstructor.m in Sources */,
+				3C9C5C211CF715F200392AED /* Reachability.m in Sources */,
+				3C9C5C131CF715F200392AED /* MCButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9C5BC31CF7123200392AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9C5BCA1CF7123300392AED /* MobileConnectSDK_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9C5BCE1CF7123300392AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C27CBD61CF70AF900F4A66F /* MobileConnectSDK iOS */;
+			targetProxy = 3C9C5BCD1CF7123300392AED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3C27CBD01CF70AC600F4A66F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
 		3C27CBD11CF70AC600F4A66F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		3C27CBDE1CF70AF900F4A66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5539A816B82703322E4C3C3 /* Pods-MobileConnectSDK iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GSMA.MobileConnectSDK-iOS";
+				PRODUCT_NAME = MobileConnectSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C27CBDF1CF70AF900F4A66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD519ECF89314B2EBFB1C4D /* Pods-MobileConnectSDK iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GSMA.MobileConnectSDK-iOS";
+				PRODUCT_NAME = MobileConnectSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C9C5BCF1CF7123300392AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E11425A220DC742E49F1BDD /* Pods-MobileConnectSDK iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MobileConnectSDK iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GSMA.MobileConnectSDK-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C9C5BD01CF7123300392AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74569290B8F3D25B0F34AB30 /* Pods-MobileConnectSDK iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MobileConnectSDK iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GSMA.MobileConnectSDK-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -57,6 +821,24 @@
 			buildConfigurations = (
 				3C27CBD01CF70AC600F4A66F /* Debug */,
 				3C27CBD11CF70AC600F4A66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C27CBDD1CF70AF900F4A66F /* Build configuration list for PBXNativeTarget "MobileConnectSDK iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C27CBDE1CF70AF900F4A66F /* Debug */,
+				3C27CBDF1CF70AF900F4A66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9C5BD11CF7123300392AED /* Build configuration list for PBXNativeTarget "MobileConnectSDK iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9C5BCF1CF7123300392AED /* Debug */,
+				3C9C5BD01CF7123300392AED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

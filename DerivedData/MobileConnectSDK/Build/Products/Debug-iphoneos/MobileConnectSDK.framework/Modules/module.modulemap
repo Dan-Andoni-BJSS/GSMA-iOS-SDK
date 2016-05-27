@@ -1,0 +1,6 @@
+framework module MobileConnectSDK {
+  umbrella header "MobileConnectSDK.h"
+
+  export *
+  module * { export * }
+}
