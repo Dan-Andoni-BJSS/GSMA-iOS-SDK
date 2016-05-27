@@ -11,7 +11,7 @@
 
 @interface TokenResponseModel : MCModel
 
-- (instancetype)initWithTokenModel:(TokenModel*)tokenModel;
+- (nonnull instancetype)initWithTokenModel:(nonnull TokenModel*)tokenModel;
 
 @property (nullable) TokenModel *tokenData;
 @property (nullable) NSDictionary *decodedToken;

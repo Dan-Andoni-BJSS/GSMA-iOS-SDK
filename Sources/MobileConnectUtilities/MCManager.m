@@ -65,6 +65,11 @@
 
 #pragma mark - Web controller delegate methods
 
+- (void)didReceiveResponseWithParameters:(nullable NSDictionary*)parameters fromController:(nullable MCWebController*)controller
+{
+    
+}
+
 - (BOOL)webController:(MCWebController *)controller shouldRedirectToURL:(NSURL *)url
 {
     return ![self isValidRedirectWithURL:url inController:controller];

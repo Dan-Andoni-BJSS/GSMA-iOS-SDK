@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://developer.mobileconnect.io"
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MIT", :file => "Metadata/LICENSE" }
 
   s.author             = { "Dan Andoni" => "dan.andoni@bjss.com" }
 
@@ -17,12 +17,12 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Dan-Andoni-BJSS/GSMA-iOS-SDK.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Sources", "Sources/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
-  s.resources = "MobileConnectSDK/**/*.{png,jpeg,jpg,storyboard,xib}"
+  s.resources = "**/*.{png,jpeg,jpg,storyboard,xib}"
 
   s.framework  = "UIKit"
   s.dependency 'AFNetworking', '~> 3.1.0'
